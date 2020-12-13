@@ -1,0 +1,37 @@
+kind: service
+version: effx/v1
+spec:
+  name: email
+  annotations:
+    effx.io/owned-by: frontend
+  tags:
+    tier: "2"
+    python: "3.7"
+    group: fulfillment
+    protocol: http
+  description: Sends users an order confirmation email
+  contact:
+    onCall:
+      label: frontend on-call
+      url: 'https://pagerduty.com/frontend-rotation'
+    email: frontend@zanefactory.com
+    chat:
+      url: 'https://zanefactory.slack.com/archives/C01GZGFCSBW'
+      label: '#frontend'
+  linkGroups:
+    - label: Dashboards
+      links:
+        - label: APM
+          url: 'https://app.datadoghq.com/apm/services'
+    - label: Version Control
+      links:
+        - label: Github
+          url: 'https://github.com/zanefactory/microservices-demo/tree/master/src/cartservice'
+    - label: Runbooks
+      links:
+        - label: on-call runbook
+          url: 'https://www.notion.so/microservices-demo-62e0fb0e92a9438e89a844849b067875'
+    - label: Bug Tracker
+      links:
+        - label: clubhouse.io
+          url: 'https://app.clubhouse.io/zf/projects'
