@@ -18,11 +18,22 @@ spec:
     chat:
       url: 'https://zanefactory.slack.com/archives/C01GZGFCSBW'
       label: '#frontend'
+    issueTracker:
+      label: clubhouse.io
+      url: 'https://app.clubhouse.io/zf/projects'
   linkGroups:
     - label: Dashboards
       links:
         - label: APM
           url: 'https://app.datadoghq.com/apm/services'
+        - label: Logs
+          url: 'https://www.elastic.co/kibana/logs'
+        - label: TSDB
+          url: 'https://grafana.com/services/dashboard/checkout'
+        - label: Analytics
+          url: 'https://analytics.google.com/analytics/web'
+        - label: Incidents
+          url: 'https://pagerduty.com/incidents/frontend'
     - label: Version Control
       links:
         - label: Github
@@ -31,7 +42,3 @@ spec:
       links:
         - label: on-call runbook
           url: 'https://www.notion.so/microservices-demo-62e0fb0e92a9438e89a844849b067875'
-    - label: Bug Tracker
-      links:
-        - label: clubhouse.io
-          url: 'https://app.clubhouse.io/zf/projects'

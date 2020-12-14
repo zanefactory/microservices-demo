@@ -9,12 +9,11 @@ spec:
   description: flips relationships between objects continually
   contact:
     email: analytics@zanefactory.com
+    issueTracker:
+      label: clubhouse.io
+      url: 'https://app.clubhouse.io/zf/projects'
   linkGroups:
     - label: Version Control
       links:
         - label: Github
           url: 'https://github.com/zanefactory/microservices-demo/tree/master/src/flip'
-    - label: Bug Tracker
-      links:
-        - label: clubhouse.io
-          url: 'https://app.clubhouse.io/zf/projects'
