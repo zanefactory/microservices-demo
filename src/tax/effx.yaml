@@ -27,7 +27,3 @@ spec:
       links:
         - label: Github
           url: 'https://github.com/zanefactory/microservices-demo/tree/master/src/tax'
-    - label: Bug Tracker
-      links:
-        - label: clubhouse.io
-          url: 'https://app.clubhouse.io/zf/projects'

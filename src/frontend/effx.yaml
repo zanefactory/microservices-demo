@@ -18,6 +18,9 @@ spec:
     chat:
       url: 'https://zanefactory.slack.com/archives/C01GZGFCSBW'
       label: '#frontend'
+    issueTracker:
+      label: clubhouse.io
+      url: 'https://app.clubhouse.io/zf/projects'
   linkGroups:
     - label: Dashboards
       links:
@@ -33,7 +36,3 @@ spec:
       links:
         - label: on-call runbook
           url: 'https://www.notion.so/microservices-demo-62e0fb0e92a9438e89a844849b067875'
-    - label: Bug Tracker
-      links:
-        - label: clubhouse.io
-          url: 'https://app.clubhouse.io/zf/projects'

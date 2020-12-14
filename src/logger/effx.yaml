@@ -18,6 +18,9 @@ spec:
     chat:
       url: 'https://zanefactory.slack.com/archives/C01GQ92H5E1'
       label: '#ops'
+    issueTracker:
+      label: clubhouse.io
+      url: 'https://app.clubhouse.io/zf/projects'
   linkGroups:
     - label: Dashboards
       links:
@@ -31,7 +34,3 @@ spec:
       links:
         - label: on-call runbook
           url: 'https://paper.dropbox.com/doc/microservices-demo--BBPoTrMKKzAd3rxAqb3dlcAvAQ-op1iowm6NzSAlf9I48U8O'
-    - label: Bug Tracker
-      links:
-        - label: clubhouse.io
-          url: 'https://app.clubhouse.io/zf/projects'
