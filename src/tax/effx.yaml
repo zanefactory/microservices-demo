@@ -1,0 +1,33 @@
+kind: service
+version: effx/v1
+spec:
+  name: tax
+  annotations:
+    effx.io/owned-by: backend
+  tags:
+    tier: "1"
+    nodejs: "12.19.1"
+    group: payments
+    protocol: grpc
+  description: Receives locale and pricing information and returns tax rate for locale
+  contact:
+    onCall:
+      label: backend on-call
+      url: 'https://pagerduty.com/backend-rotation'
+    email: backend@zanefactory.com
+    chat:
+      url: 'https://zanefactory.slack.com/archives/C01GQ92H5E1'
+      label: '#backend'
+  linkGroups:
+    - label: Dashboards
+      links:
+        - label: Grafana Metrics
+          url: 'https://grafana.com/services/dashboard'
+    - label: Version Control
+      links:
+        - label: Github
+          url: 'https://github.com/zanefactory/microservices-demo/tree/master/src/tax'
+    - label: Bug Tracker
+      links:
+        - label: clubhouse.io
+          url: 'https://app.clubhouse.io/zf/projects'

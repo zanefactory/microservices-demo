@@ -1,0 +1,37 @@
+kind: service
+version: effx/v1
+spec:
+  name: search
+  annotations:
+    effx.io/owned-by: backend
+  tags:
+    tier: "0"
+    go: "1.14"
+    group: core
+    protocol: grpc
+  description: Receives query filters and returns search results depending on type
+  contact:
+    onCall:
+      label: backend on-call
+      url: 'https://pagerduty.com/backend-rotation'
+    email: backend@zanefactory.com
+    chat:
+      url: 'https://zanefactory.slack.com/archives/C01GQ92H5E1'
+      label: '#backend'
+  linkGroups:
+    - label: Dashboards
+      links:
+        - label: Grafana Metrics
+          url: 'https://grafana.com/services/dashboard'
+    - label: Version Control
+      links:
+        - label: Github
+          url: 'https://github.com/zanefactory/microservices-demo/tree/master/src/search'
+    - label: Runbooks
+      links:
+        - label: on-call runbook
+          url: 'https://paper.dropbox.com/doc/microservices-demo--BBPoTrMKKzAd3rxAqb3dlcAvAQ-op1iowm6NzSAlf9I48U8O'
+    - label: Bug Tracker
+      links:
+        - label: clubhouse.io
+          url: 'https://app.clubhouse.io/zf/projects'

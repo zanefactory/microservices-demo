@@ -1,0 +1,30 @@
+kind: service
+version: effx/v1
+spec:
+  name: recommendation
+  annotations:
+    effx.io/owned-by: analytics
+  tags:
+    tier: "2"
+    python: "3.7"
+    group: shopping
+    protocol: grpc
+  description: Recommends other products based on what's given in the cart
+  contact:
+    email: analytics@zanefactory.com
+    chat:
+      url: 'https://zanefactory.slack.com/archives/C4D31S4KD'
+      label: '#ops'
+  linkGroups:
+    - label: Version Control
+      links:
+        - label: Github
+          url: 'https://github.com/zanefactory/microservices-demo/tree/master/src/recommendationservice'
+    - label: Runbooks
+      links:
+        - label: on-call runbook
+          url: 'https://www.notion.so/microservices-demo-62e0fb0e92a9438e89a844849b067875'
+    - label: Bug Tracker
+      links:
+        - label: clubhouse.io
+          url: 'https://app.clubhouse.io/zf/projects'
