@@ -6,7 +6,7 @@ spec:
     go: "1.13"
   description: burn service
   contact:
-    email: backend@zanefactory.com
+    email: backend@effx.com
   linkGroups:
     - label: Version Control
       links:

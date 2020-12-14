@@ -12,9 +12,9 @@ spec:
   description: Retrieves user cart, prepares order and orchestrates the payment, shipping and the email notification
   contact:
     onCall:
-      label: frontend on-call
+      label: PagerDuty rotation
       url: 'https://pagerduty.com/frontend-rotation'
-    email: frontend@zanefactory.com
+    email: frontend@effx.com
     chat:
       url: 'https://zanefactory.slack.com/archives/C01GZGFCSBW'
       label: '#frontend'
