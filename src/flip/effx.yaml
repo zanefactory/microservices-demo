@@ -8,7 +8,7 @@ spec:
     go: "1.13"
   description: flips relationships between objects continually
   contact:
-    email: analytics@zanefactory.com
+    email: analytics@effx.com
     issueTracker:
       label: clubhouse.io
       url: 'https://app.clubhouse.io/zf/projects'

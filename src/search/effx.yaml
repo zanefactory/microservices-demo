@@ -12,9 +12,9 @@ spec:
   description: Receives query filters and returns search results depending on type
   contact:
     onCall:
-      label: backend on-call
+      label: PagerDuty rotation
       url: 'https://pagerduty.com/backend-rotation'
-    email: backend@zanefactory.com
+    email: backend@effx.com
     chat:
       url: 'https://zanefactory.slack.com/archives/C01GQ92H5E1'
       label: '#backend'

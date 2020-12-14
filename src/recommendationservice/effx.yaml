@@ -11,7 +11,7 @@ spec:
     protocol: grpc
   description: Recommends other products based on what's given in the cart
   contact:
-    email: analytics@zanefactory.com
+    email: analytics@effx.com
     chat:
       url: 'https://zanefactory.slack.com/archives/C4D31S4KD'
       label: '#ops'

@@ -11,7 +11,7 @@ spec:
     protocol: http
   description: Calculates analytics based on user location, purchases and more
   contact:
-    email: analytics@zanefactory.com
+    email: analytics@effx.com
     chat:
       url: 'https://zanefactory.slack.com/archives/C4D31S4KD'
       label: '#ops'

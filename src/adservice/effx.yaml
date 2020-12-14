@@ -9,7 +9,7 @@ spec:
     protocol: http
   description: Provides text ads based on given context words
   contact:
-    email: frontend@zanefactory.com
+    email: frontend@effx.com
   linkGroups:
     - label: Dashboards
       links:
