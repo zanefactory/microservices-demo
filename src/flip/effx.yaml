@@ -1,0 +1,20 @@
+kind: service
+version: effx/v1
+spec:
+  name: flip
+  annotations:
+    effx.io/owned-by: analytics
+  tags:
+    go: "1.13"
+  description: flips relationships between objects continually
+  contact:
+    email: analytics@zanefactory.com
+  linkGroups:
+    - label: Version Control
+      links:
+        - label: Github
+          url: 'https://github.com/zanefactory/microservices-demo/tree/master/src/flip'
+    - label: Bug Tracker
+      links:
+        - label: clubhouse.io
+          url: 'https://app.clubhouse.io/zf/projects'
