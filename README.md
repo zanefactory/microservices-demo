@@ -2,6 +2,7 @@
 <img src="src/frontend/static/icons/Hipster_HeroLogoCyan.svg" width="300"/>
 </p>
 
+![effx-cli](https://github.com/zanefactory/microservices-demo/workflows/effx-cli-ci/badge.svg)
 
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Master/Release/badge.svg)
 
