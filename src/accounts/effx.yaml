@@ -9,7 +9,7 @@ spec:
     go: "1.14"
     group: core
     protocol: grpc
-  description: High level account information for corporate accounts and associated user relationships
+  description: High level account information for corporate accounts and associated user relationship info
   contact:
     onCall:
       label: PagerDuty rotation
