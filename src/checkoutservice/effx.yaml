@@ -9,7 +9,7 @@ spec:
     go: "1.15"
     group: shopping
     protocol: grpc
-  description: Retrieves user cart, prepares order and orchestrates the payment, shipping and the email notification hooray
+  description: Retrieves user cart, prepares order and orchestrates the payment, shipping and the email notification
   contact:
     onCall:
       label: PagerDuty rotation
