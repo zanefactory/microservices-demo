@@ -41,3 +41,13 @@ spec:
       links:
         - label: on-call runbook
           url: 'https://www.notion.so/microservices-demo-62e0fb0e92a9438e89a844849b067875'
+  dependencies:
+    manual:
+      - name: email
+      - name: payment
+      - name: shipping
+      - name: tax
+      - name: currency
+      - name: cart
+      - name: productcatalog
+      - name: accounts

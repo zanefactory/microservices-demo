@@ -34,3 +34,10 @@ spec:
       links:
         - label: on-call runbook
           url: 'https://paper.dropbox.com/doc/microservices-demo--BBPoTrMKKzAd3rxAqb3dlcAvAQ-op1iowm6NzSAlf9I48U8O'
+  dependencies:
+    manual:
+      - name: accounts
+      - name: user
+      - name: productcatalog
+      - name: recommendations
+      - name: ad

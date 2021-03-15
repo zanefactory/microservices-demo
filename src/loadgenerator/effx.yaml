@@ -20,3 +20,7 @@ spec:
       links:
         - label: Github
           url: 'https://github.com/zanefactory/microservices-demo/tree/master/src/loadgenerator'
+  dependencies:
+    manual:
+      - name: frontend
+
