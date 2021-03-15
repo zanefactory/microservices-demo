@@ -6,7 +6,6 @@ spec:
     effx.io/owned-by: frontend
   tags:
     tier: "0"
-    go: "1.15"
     group: core
     protocol: http
   description: Exposes an HTTP server to serve the website

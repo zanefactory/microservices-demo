@@ -6,7 +6,6 @@ spec:
     effx.io/owned-by: backend
   tags:
     tier: "0"
-    go: "1.15"
     group: fulfillment
     protocol: grpc
   description: Provides the list of products from a JSON file and ability to search products and get individual products
