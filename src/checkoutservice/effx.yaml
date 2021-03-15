@@ -40,7 +40,7 @@ spec:
     - label: Documentation
       links:
         - label: Service Plan: checkout
-          url: https://www.notion.so/effx/582ea62ef9ee420c86601ac3591323bd?v=5ebb57493420417189491db5fd2ff432
+          url: 'https://www.notion.so/effx/582ea62ef9ee420c86601ac3591323bd?v=5ebb57493420417189491db5fd2ff432'
     - label: Version Control
       links:
         - label: Github
