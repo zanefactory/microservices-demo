@@ -41,6 +41,6 @@ spec:
       - name: recommendation
       - name: productcatalog
       - name: currency
-      - name: checkout
+      - name: checkoutservice
       - name: ad
       - name: shipping
