@@ -9,7 +9,7 @@ spec:
     go: "1.13"
     group: infra
     protocol: http
-  description: stores and provides analytics on application logs
+  description: stores and provides analytics on application and infra logs
   contact:
     onCall:
       label: PagerDuty rotation
