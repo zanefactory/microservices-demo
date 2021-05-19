@@ -18,18 +18,15 @@ spec:
 version: effx/v1
 kind: team
 spec:
-  name: backend
-  description: backend engineering team responsible for platform services
+  name: engineering
+  description: overall eng team
   annotations:
     effx.io/reports-to: engineering
   contact:
-    email: backend@effx.com
+    email: eng@effx.com
     chat:
-      label: "#backend"
+      label: "#eng"
       url: https://zanefactory.slack.com/archives/C01GZGFCSBW
-    onCall:
-      label: "pagerduty schedule"
-      url: https://docs.effx.com/#oncall-links
 ---
 version: effx/v1
 kind: team
